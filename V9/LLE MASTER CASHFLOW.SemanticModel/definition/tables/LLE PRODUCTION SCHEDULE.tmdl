@@ -1,0 +1,682 @@
+table 'LLE PRODUCTION SCHEDULE'
+	lineageTag: 8d35ec29-b91c-4a70-8500-684b20d499d0
+
+	measure 'Units Scheduled' = SUM ( 'LLE PRODUCTION SCHEDULE'[Allocated Units] )
+		lineageTag: ee2074e4-76a9-4d5d-a55e-b83528ea6a19
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Cost Scheduled' = SUM ( 'LLE PRODUCTION SCHEDULE'[Allocated Cost] )
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 464fc662-365b-41ef-9f5e-e351d404b575
+
+	measure 'Cost per cMW per Building' =
+			
+			VAR Denom =
+			    SUMX (
+			        SUMMARIZE (
+			            'LLE PRODUCTION SCHEDULE',
+			            'LLE PRODUCTION SCHEDULE'[CAMPUS BLDG SPEC KEY],
+			            'LLE PRODUCTION SCHEDULE'[HALL TYPE]
+			        ),
+			        IF (
+			            CONTAINSSTRING ( 'LLE PRODUCTION SCHEDULE'[HALL TYPE], "CORE NETWORK" ),
+			            CALCULATE ( MAX ( 'LLE PRODUCTION SCHEDULE'[CORE cMW] ) ),
+			            CALCULATE ( MAX ( 'LLE PRODUCTION SCHEDULE'[TOTAL BUILDING cMW] ) )
+			        )
+			    )
+			RETURN
+			    DIVIDE ( [Cost Scheduled], Denom )
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 6d07d6bc-14ff-40d0-a283-a61010e654c8
+
+	measure 'UNITS (R)' =
+			
+			IF (
+			    NOT HASONEVALUE ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			    SUM ( 'LLE PRODUCTION SCHEDULE'[Allocated Units] ),
+			    SUMX (
+			        VALUES ( 'LLE PRODUCTION SCHEDULE'[OFCI SHORT] ),
+			        VAR ThisOFCI = 'LLE PRODUCTION SCHEDULE'[OFCI SHORT]
+			        VAR Cap =
+			            CALCULATE (
+			                MAX ( 'LLE PRODUCTION SCHEDULE'[PRODUCTION QTY PER MONTH] ),
+			                ALLSELECTED ( 'LLE PRODUCTION SCHEDULE' ),
+			                'LLE PRODUCTION SCHEDULE'[OFCI SHORT] = ThisOFCI,
+			                REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			            )
+			        VAR SelDemandOFCI =
+			            CALCULATE (
+			                SUM ( 'LLE PRODUCTION SCHEDULE'[Allocated Units] ),
+			                ALLSELECTED ( 'LLE PRODUCTION SCHEDULE' ),
+			                'LLE PRODUCTION SCHEDULE'[OFCI SHORT] = ThisOFCI,
+			                REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			            )
+			        VAR StartMonth =
+			            CALCULATE (
+			                MIN ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			                ALLSELECTED ( 'LLE PRODUCTION SCHEDULE' ),
+			                'LLE PRODUCTION SCHEDULE'[OFCI SHORT] = ThisOFCI
+			            )
+			        VAR CurrMonth = MAX ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			        VAR k = DATEDIFF ( StartMonth, CurrMonth, MONTH )
+			        VAR T = ROUNDUP ( DIVIDE ( SelDemandOFCI, Cap ), 0 )
+			        RETURN
+			            SUMX (
+			                CALCULATETABLE (
+			                    SUMMARIZE (
+			                        'LLE PRODUCTION SCHEDULE',
+			                        'LLE PRODUCTION SCHEDULE'[CAMPUS BLDG SPEC KEY],
+			                        'LLE PRODUCTION SCHEDULE'[HALL TYPE],
+			                        'LLE PRODUCTION SCHEDULE'[EQUIPMENT]
+			                    ),
+			                    'LLE PRODUCTION SCHEDULE'[OFCI SHORT] = ThisOFCI
+			                ),
+			                VAR RowDemand =
+			                    CALCULATE (
+			                        SUM ( 'LLE PRODUCTION SCHEDULE'[Allocated Units] ),
+			                        REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			                    )
+			                VAR PerUnit = Cap * DIVIDE ( RowDemand, SelDemandOFCI )
+			                VAR Remaining = RowDemand - k * PerUnit
+			                RETURN IF ( k >= 0 && k <= T - 1 && Remaining > 0, MIN ( PerUnit, Remaining ) )
+			            )
+			    )
+			)
+		formatString: 0
+		lineageTag: 48ff6266-b980-4072-80e0-f13efaa9874c
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'COST (R)' =
+			
+			IF (
+			    NOT HASONEVALUE ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			    SUM ( 'LLE PRODUCTION SCHEDULE'[Allocated Cost] ),
+			    SUMX (
+			        VALUES ( 'LLE PRODUCTION SCHEDULE'[OFCI SHORT] ),
+			        VAR ThisOFCI = 'LLE PRODUCTION SCHEDULE'[OFCI SHORT]
+			        VAR Cap =
+			            CALCULATE (
+			                MAX ( 'LLE PRODUCTION SCHEDULE'[PRODUCTION QTY PER MONTH] ),
+			                ALLSELECTED ( 'LLE PRODUCTION SCHEDULE' ),
+			                'LLE PRODUCTION SCHEDULE'[OFCI SHORT] = ThisOFCI,
+			                REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			            )
+			        VAR SelDemandOFCI =
+			            CALCULATE (
+			                SUM ( 'LLE PRODUCTION SCHEDULE'[Allocated Units] ),
+			                ALLSELECTED ( 'LLE PRODUCTION SCHEDULE' ),
+			                'LLE PRODUCTION SCHEDULE'[OFCI SHORT] = ThisOFCI,
+			                REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			            )
+			        VAR StartMonth =
+			            CALCULATE (
+			                MIN ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			                ALLSELECTED ( 'LLE PRODUCTION SCHEDULE' ),
+			                'LLE PRODUCTION SCHEDULE'[OFCI SHORT] = ThisOFCI
+			            )
+			        VAR CurrMonth = MAX ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			        VAR k = DATEDIFF ( StartMonth, CurrMonth, MONTH )
+			        VAR T = ROUNDUP ( DIVIDE ( SelDemandOFCI, Cap ), 0 )
+			        RETURN
+			            SUMX (
+			                CALCULATETABLE (
+			                    SUMMARIZE (
+			                        'LLE PRODUCTION SCHEDULE',
+			                        'LLE PRODUCTION SCHEDULE'[CAMPUS BLDG SPEC KEY],
+			                        'LLE PRODUCTION SCHEDULE'[HALL TYPE],
+			                        'LLE PRODUCTION SCHEDULE'[EQUIPMENT]
+			                    ),
+			                    'LLE PRODUCTION SCHEDULE'[OFCI SHORT] = ThisOFCI
+			                ),
+			                VAR RowDemand =
+			                    CALCULATE (
+			                        SUM ( 'LLE PRODUCTION SCHEDULE'[Allocated Units] ),
+			                        REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			                    )
+			                VAR UnitCost =
+			                    CALCULATE (
+			                        MAX ( 'LLE PRODUCTION SCHEDULE'[COST PER UM (MIXED)] ),
+			                        REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			                    )
+			                VAR PerUnit = Cap * DIVIDE ( RowDemand, SelDemandOFCI )
+			                VAR Remaining = RowDemand - k * PerUnit
+			                VAR RowUnits = IF ( k >= 0 && k <= T - 1 && Remaining > 0, MIN ( PerUnit, Remaining ) )
+			                RETURN RowUnits * UnitCost
+			            )
+			    )
+			)
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 4c18bfbf-180f-4a84-86f3-8d94ad876500
+
+	measure 'Deposit (R)' =
+			
+			IF (
+			    NOT HASONEVALUE ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			    0.20 * [COST (R)],
+			    VAR M = MAX ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			    RETURN
+			        SUMX (
+			            VALUES ( 'LLE PRODUCTION SCHEDULE'[OFCI SHORT] ),
+			            VAR dm = CALCULATE ( MAX ( 'LLE PRODUCTION SCHEDULE'[Deposit Month] ) )
+			            VAR cost = CALCULATE ( [COST (R)], REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] ) )
+			            RETURN IF ( dm = M, 0.20 * cost, 0 )
+			        )
+			)
+		lineageTag: 1cd73e22-e80b-4868-9418-a95d2379cd7a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Delivery (R)' =
+			
+			IF (
+			    NOT HASONEVALUE ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			    0.75 * [COST (R)],
+			    0.75 * [COST (R)]
+			)
+		lineageTag: b52f3a15-cef1-492d-844c-5dd40e528566
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Retention (R)' =
+			
+			IF (
+			    NOT HASONEVALUE ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			    0.05 * [COST (R)],
+			    VAR M = MAX ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			    VAR DeliveryMonth = EDATE ( M, -6 )
+			    VAR RealDeliveryExists =
+			        CALCULATE (
+			            COUNTROWS ( 'LLE PRODUCTION SCHEDULE' ),
+			            REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			            'LLE PRODUCTION SCHEDULE'[Month] = DeliveryMonth
+			        )
+			    VAR DeliveryThatMonth =
+			        CALCULATE (
+			            [COST (R)],
+			            REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			            'LLE PRODUCTION SCHEDULE'[Month] = DeliveryMonth
+			        )
+			    RETURN
+			        IF ( RealDeliveryExists > 0, 0.05 * DeliveryThatMonth )
+			)
+		lineageTag: eb7d4d57-9b95-46a8-9316-09fa5c95f551
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Payment (R)' =
+			
+			VAR M = MAX ( 'LLE PRODUCTION SCHEDULE'[Month] )
+			RETURN
+			IF (
+			    NOT HASONEVALUE ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			    [COST (R)],
+			    VAR Delivery = 0.75 * [COST (R)]
+			    VAR DeliveryMonth = EDATE ( M, -6 )
+			    VAR RealDeliveryExists =
+			        CALCULATE (
+			            COUNTROWS ( 'LLE PRODUCTION SCHEDULE' ),
+			            REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			            'LLE PRODUCTION SCHEDULE'[Month] = DeliveryMonth
+			        )
+			    VAR Retention =
+			        IF (
+			            RealDeliveryExists > 0,
+			            0.05 * CALCULATE (
+			                [COST (R)],
+			                REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] ),
+			                'LLE PRODUCTION SCHEDULE'[Month] = DeliveryMonth
+			            ),
+			            0
+			        )
+			    VAR Deposit =
+			        SUMX (
+			            VALUES ( 'LLE PRODUCTION SCHEDULE'[OFCI SHORT] ),
+			            VAR dm = CALCULATE ( MAX ( 'LLE PRODUCTION SCHEDULE'[Deposit Month] ) )
+			            VAR cost = CALCULATE ( [COST (R)], REMOVEFILTERS ( 'LLE PRODUCTION SCHEDULE'[Month] ) )
+			            RETURN IF ( dm = M, 0.20 * cost, 0 )
+			        )
+			    RETURN Delivery + Retention + Deposit
+			)
+		lineageTag: 7842daa0-2d32-4a1f-a5c5-3f589b12b94f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'OFCI SHORT'
+		dataType: string
+		lineageTag: 53550c79-8943-47f4-87e2-a69f4c469236
+		summarizeBy: none
+		sourceColumn: OFCI SHORT
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CAMPUS BLDG SPEC KEY'
+		dataType: string
+		lineageTag: 78e3baaa-2976-47a9-b91a-07d8867829a0
+		summarizeBy: none
+		sourceColumn: CAMPUS BLDG SPEC KEY
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: dateTime
+		formatString: Mmm-yyyy
+		lineageTag: 0d9fb441-93e6-46a5-bb21-43d98ace53ae
+		summarizeBy: none
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	column 'Allocated Units'
+		dataType: int64
+		lineageTag: 07516946-c002-4da1-bf62-e4a1ca52cd69
+		summarizeBy: none
+		sourceColumn: Allocated Units
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Allocated Cost'
+		dataType: int64
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: b1378290-ef21-475f-81a5-92bfd6590ef1
+		summarizeBy: none
+		sourceColumn: Allocated Cost
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = User
+
+	column 'LEASE OPTION'
+		dataType: string
+		lineageTag: ae2e3878-9fd5-4493-a365-9b8d92399e58
+		summarizeBy: none
+		sourceColumn: LEASE OPTION
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'HALL TYPE'
+		dataType: string
+		lineageTag: 32e80d7d-fb02-4653-bfea-5fc00d26fcae
+		summarizeBy: none
+		sourceColumn: HALL TYPE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CAMPUS + BUILDING'
+		dataType: string
+		lineageTag: 856802d6-89f5-40cd-a936-d6363876741e
+		summarizeBy: none
+		sourceColumn: CAMPUS + BUILDING
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CAMPUS CODE'
+		dataType: string
+		lineageTag: e41c0e20-8bca-46dc-96e7-63efeaf664c9
+		summarizeBy: none
+		sourceColumn: CAMPUS CODE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'BUILDING ID'
+		dataType: string
+		lineageTag: f676f589-6e6e-4383-86dc-9ef70a04a9d9
+		summarizeBy: none
+		sourceColumn: BUILDING ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CAMPUS + BUILDING + SPEC'
+		dataType: string
+		lineageTag: 616ef4cd-1511-44f1-bb56-350132d95d05
+		summarizeBy: none
+		sourceColumn: CAMPUS + BUILDING + SPEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CAMPUS + BUILDING + HALL TYPE'
+		dataType: string
+		lineageTag: 64172f83-9abc-4e90-a74f-9574d5df31d5
+		summarizeBy: none
+		sourceColumn: CAMPUS + BUILDING + HALL TYPE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'TOTAL BUILDING cMW'
+		dataType: double
+		formatString: 0
+		lineageTag: 2a8af13d-4e55-4049-a8e6-8d99a7eae433
+		summarizeBy: none
+		sourceColumn: TOTAL BUILDING cMW
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column DISCIPLINE
+		dataType: string
+		lineageTag: 5e602468-b434-4074-a868-b8c56880d89c
+		summarizeBy: none
+		sourceColumn: DISCIPLINE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FIT UP / FIT OUT'
+		dataType: string
+		lineageTag: e8e677ad-ea8c-4266-a7b5-3d89dd7f5cdb
+		summarizeBy: none
+		sourceColumn: FIT UP / FIT OUT
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'LEAD TIME WKS'
+		dataType: double
+		formatString: 0
+		lineageTag: 42c31d90-3ff5-4c4a-8547-efb207bca943
+		summarizeBy: none
+		sourceColumn: LEAD TIME WKS
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column 'PRODUCTION QTY PER MONTH'
+		dataType: double
+		formatString: 0
+		lineageTag: 5eb36684-a067-4c80-ab7d-21885ab677db
+		summarizeBy: none
+		sourceColumn: PRODUCTION QTY PER MONTH
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column 'CORE cMW'
+		dataType: double
+		formatString: 0
+		lineageTag: 1efb9449-5294-42bb-9388-6f189936007d
+		summarizeBy: none
+		sourceColumn: CORE cMW
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column EQUIPMENT
+		dataType: string
+		lineageTag: 97e85af9-59e2-45ed-8f1e-ac5fa01cd511
+		summarizeBy: none
+		sourceColumn: EQUIPMENT
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COST PER UM (MIXED)'
+		dataType: double
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: ccd77b33-3680-4819-aa64-ce426bdb3547
+		summarizeBy: none
+		sourceColumn: COST PER UM (MIXED)
+
+		annotation SummarizationSetBy = User
+
+	column SIZE/CONFIGURATION
+		dataType: string
+		lineageTag: 8dbd1eda-2224-469d-8495-3b719ecb673d
+		summarizeBy: none
+		sourceColumn: SIZE/CONFIGURATION
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMMENTS
+		dataType: string
+		lineageTag: c9c5c0c1-9848-46dc-8fab-e012689709ea
+		summarizeBy: none
+		sourceColumn: COMMENTS
+
+		annotation SummarizationSetBy = Automatic
+
+	column UM
+		dataType: string
+		lineageTag: 5075e069-ed02-49b1-97bb-b836fbdfa734
+		summarizeBy: none
+		sourceColumn: UM
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COST CODE'
+		dataType: string
+		lineageTag: 77be6b31-0dd9-4971-9e24-10e7b96e15a3
+		summarizeBy: none
+		sourceColumn: COST CODE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COST CODE NAME'
+		dataType: string
+		lineageTag: 1a92f039-2001-4925-ae1b-a3864f818acc
+		summarizeBy: none
+		sourceColumn: COST CODE NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COST CODE + NAME'
+		dataType: string
+		lineageTag: 2252beec-47b3-4e30-983a-e1fa5b19a755
+		summarizeBy: none
+		sourceColumn: COST CODE + NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Deposit Month'
+		dataType: dateTime
+		formatString: Mmm-yyyy
+		lineageTag: 292d954a-ddbb-42a5-b7b8-a3eef321f7a3
+		summarizeBy: none
+		sourceColumn: Deposit Month
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	partition 'LLE PRODUCTION SCHEDULE' = m
+		mode: import
+		source =
+				let
+				    Src = #"LLE CASHFLOW MASTER",
+				    Source = Table.Buffer(
+				        Table.TransformColumns(Src, {{"PRODUCTION QTY PER MONTH", each Number.From(_), type number}})
+				    ),
+				    Attr = Table.Buffer(
+				        Table.Group(
+				            Source, {"CAMPUS BLDG SPEC KEY"},
+				            {
+				                {"SPEC",        each List.First([SPEC]), type text},
+				                {"CAMPUS CODE", each List.First([CAMPUS CODE]), type text},
+				                {"BUILDING ID", each List.First([BUILDING ID]), type text},
+				                {"TOTAL BUILDING cMW", each List.Max([TOTAL BUILDING cMW]), type number},
+				                {"CORE cMW", each List.Max([CORE cMW]), type number}
+				            }
+				        )
+				    ),
+				    AttrPlus0 = Table.AddColumn(Attr, "CAMPUS + BUILDING",
+				        each Text.Combine({[CAMPUS CODE], [BUILDING ID]}, " "), type text),
+				    AttrPlus = Table.AddColumn(AttrPlus0, "CAMPUS + BUILDING + SPEC",
+				        each Text.Combine({[CAMPUS CODE], [BUILDING ID], [SPEC]}, " "), type text),
+				
+				    CapByOFCI = Table.Group(
+				        Source, {"OFCI SHORT"},
+				        {{"Capacity", each List.Max([PRODUCTION QTY PER MONTH]), type number}}
+				    ),
+				    CapLookup = Record.FromList(CapByOFCI[Capacity], CapByOFCI[OFCI SHORT]),
+				
+				    // ---- deposit month per OFCI package = month AFTER earliest PO date ----
+				    DepGrp = Table.AddColumn(
+				        Table.Group(Source, {"OFCI SHORT"}, {{"PODate", each List.Min([PO DATE]), type date}}),
+				        "Deposit Month", each Date.AddMonths(Date.StartOfMonth([PODate]), 1), type date),
+				    DepLookup = Record.FromList(DepGrp[#"Deposit Month"], DepGrp[OFCI SHORT]),
+				
+				    Ext = Table.AddColumn(Source, "Ext",
+				        each [QTY PER BUILDING] * [#"COST PER UM (MIXED)"], type number),
+				    Bldg = Table.Group(
+				        Ext, {"OFCI SHORT", "CAMPUS BLDG SPEC KEY", "HALL TYPE", "DISCIPLINE", "FIT UP / FIT OUT", "EQUIPMENT"},
+				        {
+				            {"Demand",       each List.Sum([QTY PER BUILDING]), type number},
+				            {"WeightedCost", each List.Sum([Ext]), type number},
+				            {"StartMonth",   each Date.StartOfMonth(List.Min([Delivery Start Date])), type date},
+				            {"LEAD TIME WKS", each List.Max([LEAD TIME WKS]), type number},
+				            {"SIZE/CONFIGURATION", each List.First([#"SIZE/CONFIGURATION"]), type text},
+				            {"COMMENTS", each List.First([COMMENTS]), type text},
+				            {"UM", each List.First([UM]), type text},
+				            {"COST CODE", each List.First([#"COST CODE"]), type text},
+				            {"COST CODE NAME", each List.First([#"COST CODE NAME"]), type text}
+				        }
+				    ),
+				    BldgCPU = Table.AddColumn(Bldg, "CostPerUnit",
+				        each if [Demand] = 0 then 0 else [WeightedCost] / [Demand], type number),
+				    BldgKeyed = Table.AddColumn(BldgCPU, "UnitKey",
+				        each [OFCI SHORT] & " || " & [CAMPUS BLDG SPEC KEY] & " || " & [HALL TYPE]
+				             & " || " & ([DISCIPLINE] ?? "") & " || " & ([#"FIT UP / FIT OUT"] ?? "")
+				             & " || " & ([EQUIPMENT] ?? ""), type text),
+				    Descr = Table.Buffer(Table.SelectColumns(BldgKeyed, {"UnitKey", "SIZE/CONFIGURATION", "COMMENTS", "UM", "COST CODE", "COST CODE NAME"})),
+				    Groups = Table.Group(BldgKeyed, {"OFCI SHORT"}, {{"g", each _, type table}}),
+				
+				    ApportionWhole = (items as list, total as number) as list =>
+				        let
+				            tot = List.Sum(List.Transform(items, each _[W])),
+				            cap = Number.RoundDown(total),
+				            raw = List.Transform(items, each
+				                    let exact = if tot <= 0 then 0 else cap * _[W] / tot
+				                    in _ & [Floor = Number.RoundDown(exact), Frac = exact - Number.RoundDown(exact)]),
+				            baseSum = List.Sum(List.Transform(raw, each [Floor])),
+				            leftover = cap - baseSum,
+				            ranked = List.Sort(raw, {each [Frac], Order.Descending}),
+				            withBonus = List.Transform(
+				                List.Positions(ranked),
+				                (p) => let r = ranked{p} in r & [Units = r[Floor] + (if p < leftover then 1 else 0)]),
+				            capped = List.Transform(withBonus, each _ & [Final = List.Min({[Units], [W]})])
+				        in
+				            capped,
+				
+				    AllocateOFCI = (units as table, capacity as number) as list =>
+				        let
+				            firstMonth  = Date.StartOfMonth(List.Min(units[StartMonth])),
+				            latestStart = Date.StartOfMonth(List.Max(units[StartMonth])),
+				            spread      = (Date.Year(latestStart) - Date.Year(firstMonth)) * 12
+				                          + (Date.Month(latestStart) - Date.Month(firstMonth)),
+				            totalDemand = List.Sum(units[Demand]),
+				            prodMonths  = if capacity <= 0 then 0 else Number.RoundUp(totalDemand / capacity),
+				            monthsNeeded = spread + prodMonths + 6,
+				            initRem = List.Buffer(List.Transform(
+				                Table.ToRecords(units),
+				                (r) => [ UKey = r[UnitKey],
+				                         BKey = r[CAMPUS BLDG SPEC KEY],
+				                         Hall = r[HALL TYPE],
+				                         Disc = r[DISCIPLINE],
+				                         Fit  = r[#"FIT UP / FIT OUT"],
+				                         Lead = r[LEAD TIME WKS],
+				                         Equip = r[EQUIPMENT],
+				                         Start = Date.StartOfMonth(r[StartMonth]),
+				                         Remaining = r[Demand],
+				                         CPU = r[CostPerUnit] ]
+				            )),
+				            result = List.Accumulate(
+				                {0 .. monthsNeeded},
+				                [ Rem = initRem, Out = {} ],
+				                (state, i) =>
+				                    let
+				                        m = Date.AddMonths(firstMonth, i),
+				                        rem = state[Rem],
+				                        eligible = List.Select(rem,
+				                            each _[Start] <= m and _[Remaining] > 0.0000001),
+				                        sumRem = List.Sum(List.Transform(eligible, each _[Remaining])),
+				                        thisCap = List.Min({capacity, sumRem}),
+				                        items = List.Transform(eligible,
+				                            each [UKey=_[UKey], BKey=_[BKey], Hall=_[Hall], Disc=_[Disc], Fit=_[Fit], Lead=_[Lead], Equip=_[Equip], W=_[Remaining], CPU=_[CPU]]),
+				                        appt = if List.Count(eligible) = 0 or thisCap <= 0
+				                               then {}
+				                               else ApportionWhole(items, thisCap),
+				                        allocThisMonth = List.Transform(
+				                            List.Select(appt, each [Final] > 0),
+				                            each [ UKey=_[UKey], BKey=_[BKey], Hall=_[Hall], Disc=_[Disc], Fit=_[Fit], Lead=_[Lead], Equip=_[Equip],
+				                                   Units=_[Final], CPU=_[CPU], Month=m ]),
+				                        usedRec = Record.FromList(
+				                            List.Transform(allocThisMonth, each _[Units]),
+				                            List.Transform(allocThisMonth, each _[UKey])),
+				                        newRem = List.Transform(rem,
+				                            (b) => [ UKey=b[UKey], BKey=b[BKey], Hall=b[Hall], Disc=b[Disc], Fit=b[Fit], Lead=b[Lead], Equip=b[Equip], Start=b[Start],
+				                                     Remaining = b[Remaining] - Record.FieldOrDefault(usedRec, b[UKey], 0),
+				                                     CPU=b[CPU] ])
+				                    in
+				                        [ Rem = newRem, Out = state[Out] & { allocThisMonth } ]
+				            )
+				        in
+				            List.Combine(result[Out]),
+				
+				    PerOFCI = List.Transform(
+				        Table.ToRecords(Groups),
+				        (grp) =>
+				            let
+				                o    = grp[OFCI SHORT],
+				                cap  = Record.FieldOrDefault(CapLookup, o, 0),
+				                recs = AllocateOFCI(grp[g], cap)
+				            in
+				                List.Transform(recs, each _ & [#"OFCI SHORT" = o, #"PRODUCTION QTY PER MONTH" = cap, #"Deposit Month" = Record.FieldOrDefault(DepLookup, o, null)])
+				    ),
+				    AllRecs = List.Combine(PerOFCI),
+				    AsTable = Table.FromRecords(AllRecs),
+				
+				    WithCost = Table.AddColumn(AsTable, "Allocated Cost", each [Units] * [CPU], type number),
+				    Shaped = Table.RenameColumns(
+				        Table.SelectColumns(WithCost,
+				            {"OFCI SHORT", "BKey", "Hall", "Disc", "Fit", "Lead", "Equip", "CPU", "PRODUCTION QTY PER MONTH", "Deposit Month", "Month", "Units", "Allocated Cost", "UKey"}),
+				        {{"BKey", "CAMPUS BLDG SPEC KEY"}, {"Hall", "HALL TYPE"},
+				         {"Disc", "DISCIPLINE"}, {"Fit", "FIT UP / FIT OUT"}, {"Lead", "LEAD TIME WKS"},
+				         {"Equip", "EQUIPMENT"}, {"CPU", "COST PER UM (MIXED)"}, {"Units", "Allocated Units"}}),
+				    Filtered = Table.SelectRows(Shaped, each [Allocated Units] > 0.0000001),
+				
+				    Joined = Table.NestedJoin(Filtered, {"CAMPUS BLDG SPEC KEY"},
+				                              AttrPlus, {"CAMPUS BLDG SPEC KEY"}, "attr", JoinKind.LeftOuter),
+				    Expanded = Table.ExpandTableColumn(Joined, "attr",
+				                              {"CAMPUS CODE", "BUILDING ID", "SPEC", "CAMPUS + BUILDING", "CAMPUS + BUILDING + SPEC", "TOTAL BUILDING cMW", "CORE cMW"},
+				                              {"CAMPUS CODE", "BUILDING ID", "SPEC", "CAMPUS + BUILDING", "CAMPUS + BUILDING + SPEC", "TOTAL BUILDING cMW", "CORE cMW"}),
+				    WithHallCombo = Table.AddColumn(Expanded, "CAMPUS + BUILDING + HALL TYPE",
+				        each Text.Combine({[CAMPUS CODE], [BUILDING ID], [HALL TYPE]}, " "), type text),
+				    JoinedDescr = Table.NestedJoin(WithHallCombo, {"UKey"}, Descr, {"UnitKey"}, "descr", JoinKind.LeftOuter),
+				    ExpandedDescr = Table.ExpandTableColumn(JoinedDescr, "descr",
+				        {"SIZE/CONFIGURATION", "COMMENTS", "UM", "COST CODE", "COST CODE NAME"},
+				        {"SIZE/CONFIGURATION", "COMMENTS", "UM", "COST CODE", "COST CODE NAME"}),
+				    WithCostCodeCombo = Table.AddColumn(ExpandedDescr, "COST CODE + NAME",
+				        each Text.Combine({[#"COST CODE"] ?? "", [#"COST CODE NAME"] ?? ""}, " - "), type text),
+				    Cleaned = Table.RemoveColumns(WithCostCodeCombo, {"UKey"}),
+				
+				    Typed = Table.TransformColumnTypes(Cleaned, {
+				        {"OFCI SHORT", type text}, {"CAMPUS BLDG SPEC KEY", type text},
+				        {"HALL TYPE", type text}, {"SPEC", type text},
+				        {"CAMPUS CODE", type text}, {"BUILDING ID", type text},
+				        {"CAMPUS + BUILDING", type text}, {"CAMPUS + BUILDING + SPEC", type text},
+				        {"CAMPUS + BUILDING + HALL TYPE", type text},
+				        {"TOTAL BUILDING cMW", type number}, {"CORE cMW", type number},
+				        {"DISCIPLINE", type text}, {"FIT UP / FIT OUT", type text},
+				        {"LEAD TIME WKS", type number}, {"PRODUCTION QTY PER MONTH", type number}, {"Deposit Month", type date},
+				        {"EQUIPMENT", type text}, {"COST PER UM (MIXED)", type number},
+				        {"SIZE/CONFIGURATION", type text}, {"COMMENTS", type text}, {"UM", type text},
+				        {"COST CODE", type text}, {"COST CODE NAME", type text}, {"COST CODE + NAME", type text},
+				        {"Month", type date}, {"Allocated Units", Int64.Type},
+				        {"Allocated Cost", type number} }),
+				    #"Renamed Columns" = Table.RenameColumns(Typed,{{"SPEC", "LEASE OPTION"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

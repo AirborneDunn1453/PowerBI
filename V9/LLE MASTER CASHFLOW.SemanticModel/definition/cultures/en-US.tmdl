@@ -1,0 +1,7005 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "lle_cashflow_master": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lle cashflow master": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lle cashflow controller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "lle cashflow ruler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "lle cashflow leader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "lle cashflow owner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "lle cashflow chief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "lle cashflow boss": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "lle cashflow teacher": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        },
+			        {
+			          "lle cashflow guru": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        },
+			        {
+			          "lle cashflow instructor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        },
+			        {
+			          "lle cashflow trainer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.row_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "RowNumber"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "row number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RowNumber": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "row no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "line number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.campus_code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "CAMPUS CODE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campus code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "campus id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "campus key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.building_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "BUILDING ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "building id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "building": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "building identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "building identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "building identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "building credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "construction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edifice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "erection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "structure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "shop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.spec": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "SPEC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "spec": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.hall_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "HALL TYPE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hall type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hall category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "hall genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "hall manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "hall variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "hall brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "hall class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.cMW_PER_HALL_TYPE": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "cMW PER HALL TYPE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cMW PER HALL TYPE": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cmw per hall category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "cmw per hall genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "cmw per hall manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "cmw per hall variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "cmw per hall brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "cmw per hall class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "cmw per hall kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "cmw per hall style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "cmw per hall form": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "cmw per hall grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.qty_hall": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "QTY HALLS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qty hall": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qty gallery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "qty ballroom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "qty room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "qty mansion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "qty manor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "qty grange": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "qty tower": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "qty castle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "qty lodge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "qty entry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.qty_core": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "QTY CORE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qty core": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qty hub": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "qty nucleus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "qty mainstay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "qty basis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "qty crux": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "qty meat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "qty substance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "qty midpoint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "qty center": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "qty heart": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.TOTAL_HALL_TYPE_cMW": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "TOTAL HALL TYPE cMW"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "TOTAL HALL TYPE cMW": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total hall category cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "total hall genre cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "total hall manner cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "total hall variety cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "aggregate hall type cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "overall hall type cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "total hall brand cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "total hall class cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "total hall kind cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "total hall style cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.CORE_cMW": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "CORE cMW"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CORE cMW": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.TOTAL_BUILDING_cMW": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "TOTAL BUILDING cMW"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "TOTAL BUILDING cMW": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate building cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall building cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.discipline": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "DISCIPLINE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "discipline": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "punishment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "correction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "chastisement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "castigation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "restraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "regulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "strictness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "mastery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "continence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "self-control": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.equipment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "EQUIPMENT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "equipment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "apparatus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "paraphernalia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gear": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tackle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.size_configuration": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "SIZE/CONFIGURATION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "size/configuration": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "size": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "size configuration": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "configuration": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "size/ formation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "size/ conformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "size/ arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "size/ alignment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "size formation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "size conformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "size arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "size alignment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "size/ shape": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "size/ outline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.comment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "COMMENTS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "comment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "clarification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "commentary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "feedback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "note": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.ofci_short": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "OFCI SHORT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ofci short": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.um": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "UM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "um": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.fit_up___fit_out": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "FIT UP / FIT OUT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fit up / fit out": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fit up": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "up": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fit up fit out": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fit out": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "out": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "active": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ready": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "winning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "leading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "contraband": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.qty_per_mw": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "QTY PER MW"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qty per mw": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.cost_per_um_mixed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "COST PER UM (MIXED)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cost per um (mixed)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cost per um": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.qty_per_building": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "QTY PER BUILDING"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qty per building": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.lead_time_wk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "LEAD TIME WKS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lead time wk": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lead duration wk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "lead interval wk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "lead moment wk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "lead period wk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "lead timetable wk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.production_qty_per_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "PRODUCTION QTY PER MONTH"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "production qty per month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "production qty per mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.row_per_hall": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "ROWS PER HALL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "row per hall": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "row": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "line per hall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.cMW_PER_ROW": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "cMW PER ROW"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cMW PER ROW": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cmw per line": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.row_length_ft": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "ROW LENGTH FT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "row length ft": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ft": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "length ft": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "line length ft": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.busway_per_row": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "BUSWAYS PER ROW"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "busway per row": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "busway per line": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.qty_per_block": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "QTY PER BLOCK"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qty per block": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.campus_bldg_spec_key": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "CAMPUS BLDG SPEC KEY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campus bldg spec key": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "campus bldg spec solution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec basis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec recipe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec resolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec answer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "campus bldg spec mean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "campus bldg spec secret": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "campus bldg spec source": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.po_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "PO DATE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "po date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "po moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "po period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "lle_production_schedule.campus__building": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "CAMPUS + BUILDING"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campus + building": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "campus + construction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "campus + edifice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "campus + erection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "campus + structure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "campus + house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "campus + shop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.hall_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "HALL TYPE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hall type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hall category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "hall genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "hall manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "hall variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "hall brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "hall class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.lease_option": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "LEASE OPTION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lease option": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "option": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "lease selection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "lease decision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "lease possibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "lease opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "lease preference": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "selection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "decision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "possibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "preference": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.allocated_cost": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "Allocated Cost"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "allocated cost": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "allocated price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "allocated charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "allocated rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "allocated fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "allocated total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "allocated expenditure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "allocated budget": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "allocated amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "allocated outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "allocated expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.allocated_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "Allocated Units"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "allocated unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "allocated module": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "allocated element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "allocated entity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "module": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "entity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "allocated group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "allocated component": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "allocated constituent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "allocated item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.delivery_start_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "Delivery Start Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delivery start date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "start date": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "delivery start moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "start moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "delivery start period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "start period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "delivery commencement date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "delivery inception date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "delivery kickoff date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "commencement date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "inception date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "kickoff date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "lle_production_schedule.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "lle_production_schedule.campus_bldg_spec_key": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "CAMPUS BLDG SPEC KEY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campus bldg spec key": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "campus bldg spec solution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec basis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec recipe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec interpretation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec resolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "campus bldg spec answer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "campus bldg spec mean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "campus bldg spec secret": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "campus bldg spec source": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.ofci_short": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "OFCI SHORT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ofci short": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lle production schedule": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lle production agenda": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "lle production diary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "lle production timetable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "lle production calendar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "lle production list": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "lle production plan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "lle production program": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "lle production roster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master.sum_qty_per_building": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE CASHFLOW MASTER",
+			          "ConceptualProperty": "sum qty per building"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sum qty per building": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "summation qty per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "aggregation qty per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "total qty per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "aggregate qty per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "amount qty per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "entity_1_date_dimension": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 DATE DIMENSION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "1 date dimension": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dimension": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date dimension": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "1 moment dimension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment dimension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "1 period dimension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period dimension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "1 date measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "1 date length": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "1 date height": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "1 date width": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "1 date breadth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "date measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "entity_1_date_dimension.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 DATE DIMENSION",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity_1_date_dimension.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 DATE DIMENSION",
+			          "ConceptualProperty": "YEAR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity_1_date_dimension.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 DATE DIMENSION",
+			          "ConceptualProperty": "MONTH"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "entity_1_date_dimension.monthyear": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 DATE DIMENSION",
+			          "ConceptualProperty": "MONTHYEAR"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthyear": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity_1_date_dimension.monthyearsort": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "1 DATE DIMENSION",
+			          "ConceptualProperty": "MONTHYEARSORT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthyearsort": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.campus_code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "CAMPUS CODE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campus code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "campus id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "campus key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.building_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "BUILDING ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "building id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "building": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "building identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "building identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "building identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "building credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "construction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edifice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "erection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "structure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "shop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.campus__building__spec": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "CAMPUS + BUILDING + SPEC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campus + building + spec": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.campus__building__hall_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "CAMPUS + BUILDING + HALL TYPE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campus + building + hall type": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.TOTAL_BUILDING_cMW": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "TOTAL BUILDING cMW"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "TOTAL BUILDING cMW": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate building cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall building cmw": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.discipline": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "DISCIPLINE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "discipline": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "punishment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "correction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "chastisement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "castigation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "restraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "regulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "strictness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "mastery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "continence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "self-control": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.fit_up___fit_out": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "FIT UP / FIT OUT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fit up / fit out": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fit up": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "up": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fit up fit out": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fit out": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "out": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "active": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ready": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "winning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "leading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "contraband": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.lead_time_wk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "LEAD TIME WKS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lead time wk": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lead duration wk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "lead interval wk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "lead moment wk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "lead period wk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "lead timetable wk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.production_qty_per_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "PRODUCTION QTY PER MONTH"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "production qty per month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "production qty per mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.CORE_cMW": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "CORE cMW"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CORE cMW": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.equipment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "EQUIPMENT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "equipment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "apparatus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "paraphernalia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gear": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tackle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.cost_per_um_mixed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "COST PER UM (MIXED)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cost per um (mixed)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cost per um": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "COST PER EA": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.size_configuration": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "SIZE/CONFIGURATION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "size/configuration": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "size": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "size configuration": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "configuration": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "size/ formation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "size/ conformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "size/ arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "size/ alignment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "size formation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "size conformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "size arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "size alignment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "size/ shape": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "size/ outline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.comment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "COMMENTS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "comment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "clarification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "commentary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "feedback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "note": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.um": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "UM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "um": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.units_scheduled": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "Units Scheduled"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "units scheduled": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit scheduled": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "UNITS REQUIRED": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.cost_scheduled": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "Cost Scheduled"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cost scheduled": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price scheduled": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "charge scheduled": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "rate scheduled": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "fee scheduled": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total scheduled": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "expenditure scheduled": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "budget scheduled": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "amount scheduled": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "outlay scheduled": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "expense scheduled": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.cost_per_cMW_per_building": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "Cost per cMW per Building"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cost per cMW per building": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price per cmw per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "charge per cmw per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "rate per cmw per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "fee per cmw per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "total per cmw per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "expenditure per cmw per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "budget per cmw per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "amount per cmw per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "outlay per cmw per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "expense per cmw per building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.units_scheduled_redistributed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "UNITS (R)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "units scheduled (redistributed)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "units scheduled": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "unit scheduled (redistributed)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.693
+			          }
+			        }
+			      ]
+			    },
+			    "lle_production_schedule.cost_scheduled_redistributed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LLE PRODUCTION SCHEDULE",
+			          "ConceptualProperty": "COST (R)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cost scheduled (redistributed)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cost scheduled": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "lle_production_schedule_has_TOTAL_BUILDING_cMW": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.TOTAL_BUILDING_cMW": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.TOTAL_BUILDING_cMW"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.TOTAL_BUILDING_cMW"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_TOTAL_BUILDING_cMWs"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_campus__building__hall_type": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.campus__building__hall_type": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.campus__building__hall_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.campus__building__hall_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_campus__building__hall_types"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_campus__building__spec": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.campus__building__spec": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.campus__building__spec"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.campus__building__spec"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_campus__building__specs"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_building_id": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.building_id": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.building_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.building_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_building_ids"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_campus_code": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.campus_code": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.campus_code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.campus_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_campus_codes"
+			        }
+			      ]
+			    },
+			    "entity_1_date_dimension_has_monthyearsort": {
+			      "Binding": {
+			        "ConceptualEntity": "1 DATE DIMENSION"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1_date_dimension": {
+			          "Target": {
+			            "Entity": "entity_1_date_dimension"
+			          }
+			        },
+			        "entity_1_date_dimension.monthyearsort": {
+			          "Target": {
+			            "Entity": "entity_1_date_dimension.monthyearsort"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1_date_dimension"
+			            },
+			            "Object": {
+			              "Role": "entity_1_date_dimension.monthyearsort"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1_date_dimensions_have_monthyearsorts"
+			        }
+			      ]
+			    },
+			    "entity_1_date_dimension_has_monthyear": {
+			      "Binding": {
+			        "ConceptualEntity": "1 DATE DIMENSION"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1_date_dimension": {
+			          "Target": {
+			            "Entity": "entity_1_date_dimension"
+			          }
+			        },
+			        "entity_1_date_dimension.monthyear": {
+			          "Target": {
+			            "Entity": "entity_1_date_dimension.monthyear"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1_date_dimension"
+			            },
+			            "Object": {
+			              "Role": "entity_1_date_dimension.monthyear"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1_date_dimensions_have_monthyears"
+			        }
+			      ]
+			    },
+			    "entity_1_date_dimension_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "1 DATE DIMENSION"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1_date_dimension": {
+			          "Target": {
+			            "Entity": "entity_1_date_dimension"
+			          }
+			        },
+			        "entity_1_date_dimension.month": {
+			          "Target": {
+			            "Entity": "entity_1_date_dimension.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1_date_dimension"
+			            },
+			            "Object": {
+			              "Role": "entity_1_date_dimension.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1_date_dimensions_have_months"
+			        }
+			      ]
+			    },
+			    "entity_1_date_dimension_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "1 DATE DIMENSION"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1_date_dimension": {
+			          "Target": {
+			            "Entity": "entity_1_date_dimension"
+			          }
+			        },
+			        "entity_1_date_dimension.year": {
+			          "Target": {
+			            "Entity": "entity_1_date_dimension.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1_date_dimension"
+			            },
+			            "Object": {
+			              "Role": "entity_1_date_dimension.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1_date_dimensions_have_years"
+			        }
+			      ]
+			    },
+			    "entity_1_date_dimension_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "1 DATE DIMENSION"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_1_date_dimension": {
+			          "Target": {
+			            "Entity": "entity_1_date_dimension"
+			          }
+			        },
+			        "entity_1_date_dimension.date": {
+			          "Target": {
+			            "Entity": "entity_1_date_dimension.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_1_date_dimension"
+			            },
+			            "Object": {
+			              "Role": "entity_1_date_dimension.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing1_date_dimensions_have_dates"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_units": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.units": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.units"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.units"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have__units"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_sum_qty_per_building": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.sum_qty_per_building": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.sum_qty_per_building"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.sum_qty_per_building"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_sum_qty_per_building"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_ofci_short": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.ofci_short": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.ofci_short"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.ofci_short"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_ofci_shorts"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_campus_bldg_spec_key": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.campus_bldg_spec_key": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.campus_bldg_spec_key"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.campus_bldg_spec_key"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_campus_bldg_spec_keys"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.month": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_months"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_delivery_start_date": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.delivery_start_date": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.delivery_start_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.delivery_start_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_delivery_start_dates"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_allocated_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.allocated_unit": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.allocated_unit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.allocated_unit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_allocated_units"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_allocated_cost": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.allocated_cost": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.allocated_cost"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.allocated_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_allocated_costs"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "lle_production_schedule.allocated_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "allocated_cost_indicates_how_expensive_lle_production_schedules_are"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_lease_option": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.lease_option": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.lease_option"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.lease_option"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_lease_options"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_hall_type": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.hall_type": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.hall_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.hall_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_hall_types"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_campus__building": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.campus__building": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.campus__building"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.campus__building"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_campus__building"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_po_date": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.po_date": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.po_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.po_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_po_dates"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_campus_bldg_spec_key": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.campus_bldg_spec_key": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.campus_bldg_spec_key"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.campus_bldg_spec_key"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_campus_bldg_spec_keys"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_qty_per_block": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.qty_per_block": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.qty_per_block"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.qty_per_block"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_qty_per_block"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_busway_per_row": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.busway_per_row": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.busway_per_row"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.busway_per_row"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_busway_per_row"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_row_length_ft": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.row_length_ft": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.row_length_ft"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.row_length_ft"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_row_length_ft"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_cMW_PER_ROW": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.cMW_PER_ROW": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.cMW_PER_ROW"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.cMW_PER_ROW"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_cMW_PER_ROW"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_row_per_hall": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.row_per_hall": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.row_per_hall"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.row_per_hall"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_row_per_hall"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Verbs": [
+			              {
+			                "row": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "per": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "lle_cashflow_master.row_per_hall"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "lle_cashflow_masters_row_per_row_per_hall"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_production_qty_per_month": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.production_qty_per_month": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.production_qty_per_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.production_qty_per_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_production_qty_per_month"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_lead_time_wk": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.lead_time_wk": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.lead_time_wk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.lead_time_wk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_lead_time_wks"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_qty_per_building": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.qty_per_building": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.qty_per_building"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.qty_per_building"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_qty_per_building"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_cost_per_um_mixed": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.cost_per_um_mixed": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.cost_per_um_mixed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.cost_per_um_mixed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_cost_per_um_mixed"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "lle_cashflow_master.cost_per_um_mixed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cost_per_um_mixed_indicates_how_expensive_lle_cashflow_masters_are"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_qty_per_mw": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.qty_per_mw": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.qty_per_mw"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.qty_per_mw"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_qty_per_mw"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_fit_up___fit_out": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.fit_up___fit_out": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.fit_up___fit_out"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.fit_up___fit_out"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_fit_up___fit_out"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Verbs": [
+			              {
+			                "fit": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "out": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "lle_cashflow_master.fit_up___fit_out"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "lle_cashflow_masters_fit_out_fit_up___fit_out"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Verbs": [
+			              {
+			                "fit": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "up": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "lle_cashflow_master.fit_up___fit_out"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "lle_cashflow_masters_fit_up_fit_up___fit_out2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Prepositions": [
+			              {
+			                "up": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "out": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "lle_cashflow_master.fit_up___fit_out"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_are_up_fit_up___fit_out"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_um": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.um": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.um"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.um"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_ums"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_ofci_short": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.ofci_short": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.ofci_short"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.ofci_short"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_ofci_shorts"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_comment": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.comment": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.comment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.comment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_comments"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_size_configuration": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.size_configuration": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.size_configuration"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.size_configuration"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_size_configurations"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_equipment": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.equipment": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.equipment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.equipment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_equipment"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_discipline": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.discipline": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.discipline"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.discipline"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_disciplines"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_TOTAL_BUILDING_cMW": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.TOTAL_BUILDING_cMW": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.TOTAL_BUILDING_cMW"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.TOTAL_BUILDING_cMW"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_TOTAL_BUILDING_cMWs"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_CORE_cMW": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.CORE_cMW": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.CORE_cMW"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.CORE_cMW"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_CORE_cMWs"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_TOTAL_HALL_TYPE_cMW": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.TOTAL_HALL_TYPE_cMW": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.TOTAL_HALL_TYPE_cMW"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.TOTAL_HALL_TYPE_cMW"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_TOTAL_HALL_TYPE_cMWs"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_qty_core": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.qty_core": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.qty_core"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.qty_core"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_qty_cores"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_qty_hall": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.qty_hall": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.qty_hall"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.qty_hall"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_qty_halls"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_cMW_PER_HALL_TYPE": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.cMW_PER_HALL_TYPE": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.cMW_PER_HALL_TYPE"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.cMW_PER_HALL_TYPE"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_cMW_PER_HALL_TYPE"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_hall_type": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.hall_type": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.hall_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.hall_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_hall_types"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_spec": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.spec": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.spec"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.spec"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_specs"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_building_id": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.building_id": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.building_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.building_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_building_ids"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_campus_code": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.campus_code": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.campus_code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.campus_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_campus_codes"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_has_row_number": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.row_number": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.row_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_cashflow_master"
+			            },
+			            "Object": {
+			              "Role": "lle_cashflow_master.row_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_cashflow_masters_have_row_numbers"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_fits_out_fit_up___fit_out": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.fit_up___fit_out": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.fit_up___fit_out"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Verbs": [
+			              {
+			                "fit": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "out": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "lle_production_schedule.fit_up___fit_out"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "lle_production_schedules_fit_out_fit_up___fit_out"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Verbs": [
+			              {
+			                "fit": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "up": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "lle_production_schedule.fit_up___fit_out"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "lle_production_schedules_fit_up_fit_up___fit_out2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.fit_up___fit_out"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_fit_up___fit_out"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Prepositions": [
+			              {
+			                "up": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "out": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "lle_production_schedule.fit_up___fit_out"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_are_up_fit_up___fit_out"
+			        }
+			      ]
+			    },
+			    "lle_cashflow_master_is_started_on_delivery_start_date": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE CASHFLOW MASTER"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_cashflow_master": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master"
+			          }
+			        },
+			        "lle_cashflow_master.delivery_start_date": {
+			          "Target": {
+			            "Entity": "lle_cashflow_master.delivery_start_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "lle_cashflow_master.delivery_start_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "start": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "lle_cashflow_master"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "lle_cashflow_masters_are_started_on_delivery_start_dates"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_is_expensive2": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.cost_scheduled": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.cost_scheduled"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "lle_production_schedule.cost_scheduled"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cost_scheduled_indicates_how_expensive_lle_production_schedules_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.cost_scheduled"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_cost_scheduled"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_is_expensive1": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.cost_per_um_mixed": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.cost_per_um_mixed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "lle_production_schedule.cost_per_um_mixed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cost_per_um_mixed_indicates_how_expensive_lle_production_schedules_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.cost_per_um_mixed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_cost_per_um_mixed"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_discipline": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.discipline": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.discipline"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.discipline"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_disciplines"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_lead_time_wk": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.lead_time_wk": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.lead_time_wk"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.lead_time_wk"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_lead_time_wks"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_production_qty_per_month": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.production_qty_per_month": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.production_qty_per_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.production_qty_per_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_production_qty_per_month"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_CORE_cMW": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.CORE_cMW": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.CORE_cMW"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.CORE_cMW"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_CORE_cMWs"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_equipment": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.equipment": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.equipment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.equipment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_equipment"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_size_configuration": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.size_configuration": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.size_configuration"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.size_configuration"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_size_configurations"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_comment": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.comment": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.comment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.comment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_comments"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_um": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.um": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.um"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.um"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_ums"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_units_scheduled": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.units_scheduled": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.units_scheduled"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.units_scheduled"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_units_scheduled"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_cost_per_cMW_per_building": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.cost_per_cMW_per_building": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.cost_per_cMW_per_building"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.cost_per_cMW_per_building"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_cost_per_cMW_per_building"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_units_scheduled_full_OFCI": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.units_scheduled_full_OFCI": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.units_scheduled_full_OFCI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.units_scheduled_full_OFCI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_units_scheduled_full_OFCI"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_cost_scheduled_full_OFCI": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.cost_scheduled_full_OFCI": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.cost_scheduled_full_OFCI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.cost_scheduled_full_OFCI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_cost_scheduled_full_OFCI"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_units_scheduled_redistributed": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.units_scheduled_redistributed": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.units_scheduled_redistributed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.units_scheduled_redistributed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_units_scheduled_redistributed"
+			        }
+			      ]
+			    },
+			    "lle_production_schedule_has_cost_scheduled_redistributed": {
+			      "Binding": {
+			        "ConceptualEntity": "LLE PRODUCTION SCHEDULE"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "lle_production_schedule": {
+			          "Target": {
+			            "Entity": "lle_production_schedule"
+			          }
+			        },
+			        "lle_production_schedule.cost_scheduled_redistributed": {
+			          "Target": {
+			            "Entity": "lle_production_schedule.cost_scheduled_redistributed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "lle_production_schedule"
+			            },
+			            "Object": {
+			              "Role": "lle_production_schedule.cost_scheduled_redistributed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "lle_production_schedules_have_cost_scheduled_redistributed"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

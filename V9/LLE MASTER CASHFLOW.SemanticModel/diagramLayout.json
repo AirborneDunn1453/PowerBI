@@ -1,0 +1,100 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "LLE CASHFLOW MASTER",
+          "nodeLineageTag": "ab34d910-d9c9-43c8-bb4f-29e869f5e2ea",
+          "size": {
+            "height": 651,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 869,
+            "y": 337
+          },
+          "nodeIndex": "LLE PROJECT SUMMARY",
+          "nodeLineageTag": "6511de52-f06d-4f2b-8164-5cc72c3dab63",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 332,
+            "y": 0
+          },
+          "nodeIndex": "1 DATE DIMENSION",
+          "nodeLineageTag": "74a0042f-b3b7-4e00-a621-928532b36db2",
+          "size": {
+            "height": 643,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 852,
+            "y": 0
+          },
+          "nodeIndex": "LLE CASHFLOW PROJECTION",
+          "nodeLineageTag": "93abc057-a210-4f22-8198-eeec02caeefc",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 582,
+            "y": 0
+          },
+          "nodeIndex": "LLE EQUIPMENT PRODUCTION",
+          "nodeLineageTag": "c8ede446-78a7-4d11-9dd5-0a7041b04310",
+          "size": {
+            "height": 508,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 602,
+            "y": 635.5
+          },
+          "nodeIndex": "ProductionSchedule",
+          "nodeLineageTag": "1403fda7-e153-419e-b12b-c5177c541907",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

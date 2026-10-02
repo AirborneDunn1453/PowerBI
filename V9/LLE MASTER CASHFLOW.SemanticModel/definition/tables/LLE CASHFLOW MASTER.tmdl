@@ -1,0 +1,312 @@
+table 'LLE CASHFLOW MASTER'
+	lineageTag: ab34d910-d9c9-43c8-bb4f-29e869f5e2ea
+
+	measure 'sum qty per building' = SUM('LLE CASHFLOW MASTER'[QTY PER BUILDING])
+		formatString: 0
+		lineageTag: 3f04e14d-b99c-43c6-add8-66ad84510c83
+
+	column RowNumber
+		dataType: string
+		lineageTag: 19b668a6-4e86-4a51-9db9-e4766b56f63a
+		summarizeBy: none
+		sourceColumn: RowNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CAMPUS CODE'
+		dataType: string
+		lineageTag: 32e241e6-a42f-4b21-a436-9dd7127d191f
+		summarizeBy: none
+		sourceColumn: CAMPUS CODE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'BUILDING ID'
+		dataType: string
+		lineageTag: aa8df7ca-e498-4f40-a754-b229a1c62446
+		summarizeBy: none
+		sourceColumn: BUILDING ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column SPEC
+		dataType: string
+		lineageTag: 95f9fc9a-ea86-4a7b-a10b-0407dff3cada
+		summarizeBy: none
+		sourceColumn: SPEC
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'HALL TYPE'
+		dataType: string
+		lineageTag: 6870fa86-d851-4c27-8794-66be7cd7dadc
+		summarizeBy: none
+		sourceColumn: HALL TYPE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'cMW PER HALL TYPE'
+		dataType: int64
+		formatString: 0
+		lineageTag: b7d32864-beeb-4efb-8207-5c1744f709e5
+		summarizeBy: none
+		sourceColumn: cMW PER HALL TYPE
+
+		annotation SummarizationSetBy = User
+
+	column 'QTY HALLS'
+		dataType: int64
+		formatString: 0
+		lineageTag: 62f4c6c8-fffd-41c7-b053-1df37ad6fb5a
+		summarizeBy: none
+		sourceColumn: QTY HALLS
+
+		annotation SummarizationSetBy = User
+
+	column 'QTY CORE'
+		dataType: int64
+		formatString: 0
+		lineageTag: dec83bac-4e3b-46f3-b404-70fe93536a11
+		summarizeBy: none
+		sourceColumn: QTY CORE
+
+		annotation SummarizationSetBy = User
+
+	column 'TOTAL HALL TYPE cMW'
+		dataType: int64
+		formatString: 0
+		lineageTag: 4511a79c-d8c2-4966-a999-fd085c78eda2
+		summarizeBy: sum
+		sourceColumn: TOTAL HALL TYPE cMW
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CORE cMW'
+		dataType: int64
+		formatString: 0
+		lineageTag: dd546717-a257-4e6f-a4c6-efea517fa547
+		summarizeBy: none
+		sourceColumn: CORE cMW
+
+		annotation SummarizationSetBy = User
+
+	column 'TOTAL BUILDING cMW'
+		dataType: int64
+		formatString: 0
+		lineageTag: 8fdb0dd0-d0cb-4be0-a37a-edab52dd4720
+		summarizeBy: none
+		sourceColumn: TOTAL BUILDING cMW
+
+		annotation SummarizationSetBy = User
+
+	column DISCIPLINE
+		dataType: string
+		lineageTag: 269daa10-e00e-4626-b8f0-fedb1ec355ea
+		summarizeBy: none
+		sourceColumn: DISCIPLINE
+
+		annotation SummarizationSetBy = Automatic
+
+	column EQUIPMENT
+		dataType: string
+		lineageTag: b0fddf6c-c847-4b2c-8fd8-c38093bc109a
+		summarizeBy: none
+		sourceColumn: EQUIPMENT
+
+		annotation SummarizationSetBy = Automatic
+
+	column SIZE/CONFIGURATION
+		dataType: string
+		lineageTag: 269f14d8-b511-4313-a06a-272cfd76c541
+		summarizeBy: none
+		sourceColumn: SIZE/CONFIGURATION
+
+		annotation SummarizationSetBy = Automatic
+
+	column COMMENTS
+		dataType: string
+		lineageTag: 778bbaeb-7fc4-4bd8-9952-28cf8264871e
+		summarizeBy: none
+		sourceColumn: COMMENTS
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'OFCI SHORT'
+		dataType: string
+		lineageTag: 58f1813f-a190-425d-a784-38fbad3988ed
+		summarizeBy: none
+		sourceColumn: OFCI SHORT
+
+		annotation SummarizationSetBy = Automatic
+
+	column UM
+		dataType: string
+		lineageTag: ac2103ef-cf1e-42f4-a68b-9fe94dfb379e
+		summarizeBy: none
+		sourceColumn: UM
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'FIT UP / FIT OUT'
+		dataType: string
+		lineageTag: 09ad079b-413f-4b9d-bc57-cbbee4158290
+		summarizeBy: none
+		sourceColumn: FIT UP / FIT OUT
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'QTY PER MW'
+		dataType: string
+		lineageTag: a566d521-904e-446e-82c8-646fcbc03e02
+		summarizeBy: none
+		sourceColumn: QTY PER MW
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COST PER UM (MIXED)'
+		dataType: int64
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: b4bf8343-24d6-428c-93d6-b0a8d7204563
+		summarizeBy: none
+		sourceColumn: COST PER UM (MIXED)
+
+		annotation SummarizationSetBy = User
+
+	column 'QTY PER BUILDING'
+		dataType: int64
+		formatString: 0
+		lineageTag: 4ddea914-2533-4c6e-a749-901f8b1cfaf7
+		summarizeBy: none
+		sourceColumn: QTY PER BUILDING
+
+		annotation SummarizationSetBy = User
+
+	column 'LEAD TIME WKS'
+		dataType: int64
+		formatString: 0
+		lineageTag: ad51dacc-3fc5-4600-8f18-445e1d025ac4
+		summarizeBy: none
+		sourceColumn: LEAD TIME WKS
+
+		annotation SummarizationSetBy = User
+
+	column 'PRODUCTION QTY PER MONTH'
+		dataType: int64
+		formatString: 0
+		lineageTag: c6274990-a1b6-4b7d-b1e2-a3d3ea0651d5
+		summarizeBy: none
+		sourceColumn: PRODUCTION QTY PER MONTH
+
+		annotation SummarizationSetBy = User
+
+	column 'ROWS PER HALL'
+		dataType: string
+		lineageTag: dd5d5603-8b00-412d-a075-a56d69a79bb1
+		summarizeBy: none
+		sourceColumn: ROWS PER HALL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'cMW PER ROW'
+		dataType: string
+		lineageTag: 5fcd69be-7d6c-49ea-9ddc-c63b33dc31aa
+		summarizeBy: none
+		sourceColumn: cMW PER ROW
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ROW LENGTH FT'
+		dataType: string
+		lineageTag: 7e2271c8-7e8b-4484-9563-89ec450bff85
+		summarizeBy: none
+		sourceColumn: ROW LENGTH FT
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'BUSWAYS PER ROW'
+		dataType: string
+		lineageTag: bdbcd29d-ce18-4ba1-b38d-86cb5a068675
+		summarizeBy: none
+		sourceColumn: BUSWAYS PER ROW
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'QTY PER BLOCK'
+		dataType: string
+		lineageTag: ee402a36-5869-4cfa-af2d-f02a628e1328
+		summarizeBy: none
+		sourceColumn: QTY PER BLOCK
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'CAMPUS BLDG SPEC KEY'
+		dataType: string
+		lineageTag: 76127200-3ee0-4737-bca0-308b45e46507
+		summarizeBy: none
+		sourceColumn: CAMPUS BLDG SPEC KEY
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'PO DATE'
+		dataType: dateTime
+		formatString: dd-mmm-yyyy
+		lineageTag: 02e113e2-10fb-4944-ae93-c41a688b96ac
+		summarizeBy: none
+		sourceColumn: PO DATE
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isCustom":true}
+
+	column 'Delivery Start Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 50ac3b1b-1a7f-44b9-a58c-6805bad5f3e6
+		summarizeBy: none
+		sourceColumn: Delivery Start Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'COST CODE'
+		dataType: string
+		lineageTag: aed8f123-882d-44c8-9810-c8313584ba41
+		summarizeBy: none
+		sourceColumn: COST CODE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'COST CODE NAME'
+		dataType: string
+		lineageTag: bc4f8874-dac1-4dd8-9ad4-a66f02055657
+		summarizeBy: none
+		sourceColumn: COST CODE NAME
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'LLE CASHFLOW MASTER' = m
+		mode: import
+		source =
+				let
+				    Source = SmartsheetGlobal.Contents("US", []),
+				    #"2873280005728132" = Source{[Key="2873280005728132"]}[Data],
+				    #"7767510932737924" = #"2873280005728132"{[Key="7767510932737924"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(#"7767510932737924",{{"RowNumber", type text}, {"CAMPUS CODE", type text}, {"BUILDING ID", type text}, {"SPEC", type text}, {"HALL TYPE", type text}, {"cMW PER HALL TYPE", type text}, {"QTY HALLS", type text}, {"QTY CORE", type text}, {"TOTAL HALL TYPE cMW", type text}, {"CORE cMW", type text}, {"TOTAL BUILDING cMW", type text}, {"DISCIPLINE", type text}, {"EQUIPMENT", type text}, {"SIZE/CONFIGURATION", type text}, {"COMMENTS", type text}, {"OFCI SHORT", type text}, {"UM", type text}, {"FIT UP / FIT OUT", type text}, {"QTY PER MW", type text}, {"COST PER UM (MIXED)", type text}, {"QTY PER BUILDING", type text}, {"LEAD TIME WKS", type text}, {"PRODUCTION QTY PER MONTH", type text}, {"ROWS PER HALL", type text}, {"cMW PER ROW", type text}, {"ROW LENGTH FT", type text}, {"BUSWAYS PER ROW", type text}, {"QTY PER BLOCK", type text}}),
+				    #"Inserted Merged Column" = Table.AddColumn(#"Changed Type", "CAMPUS BLDG SPEC KEY", each Text.Combine({[CAMPUS CODE], " ", [BUILDING ID], " ", [SPEC]}), type text),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Inserted Merged Column",{{"QTY PER BUILDING", Int64.Type}, {"cMW PER HALL TYPE", Int64.Type}, {"QTY HALLS", Int64.Type}, {"QTY CORE", Int64.Type}, {"TOTAL HALL TYPE cMW", Int64.Type}, {"CORE cMW", Int64.Type}, {"TOTAL BUILDING cMW", Int64.Type}, {"COST PER UM (MIXED)", Int64.Type}, {"LEAD TIME WKS", Int64.Type}, {"PO DATE", type date}}),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Changed Type1",{"OFCI SHORT", "RowNumber", "CAMPUS CODE", "BUILDING ID", "SPEC", "HALL TYPE", "cMW PER HALL TYPE", "QTY HALLS", "QTY CORE", "TOTAL HALL TYPE cMW", "CORE cMW", "TOTAL BUILDING cMW", "DISCIPLINE", "EQUIPMENT", "SIZE/CONFIGURATION", "COMMENTS", "UM", "FIT UP / FIT OUT", "QTY PER MW", "COST PER UM (MIXED)", "QTY PER BUILDING", "LEAD TIME WKS", "PRODUCTION QTY PER MONTH", "PO DATE", "ROWS PER HALL", "cMW PER ROW", "ROW LENGTH FT", "BUSWAYS PER ROW", "QTY PER BLOCK", "CAMPUS BLDG SPEC KEY"}),
+				    #"Added Custom" = Table.AddColumn(#"Reordered Columns", "Delivery Start Date", each Date.AddDays(
+				    [PO DATE],
+				    [LEAD TIME WKS] * 7
+				)),
+				    #"Changed Type2" = Table.TransformColumnTypes(#"Added Custom",{{"Delivery Start Date", type date}, {"PRODUCTION QTY PER MONTH", Int64.Type}})
+				in
+				    #"Changed Type2"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
